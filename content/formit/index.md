@@ -2,7 +2,7 @@
 title: "FORMiT"
 date: 2018
 draft: false
-description: text
+description: The initial aim for this project was to create a tool for educating children about waste and recycling. After visiting a recycling centre’s education outreach department, I found that they used paper making as an interactive task to accompany their lessons. Paper making is a timely process, this concern led to FORMiT:- an instant recycling tool that uses suction to make new objects from paper pulp.
 
 ---
 
@@ -20,10 +20,6 @@ flickrLink="flickerLink" href="https://www.flickr.com/photos/157195709@N02/49801
 
 
 {{< projectCon class="">}}
-
-{{< projectText >}}
-	some text
-{{< /projectText >}}
 
 {{< projectImg class="two"
 
@@ -68,10 +64,6 @@ flickrLink="https://www.flickr.com/photos/157195709@N02/49802011607/in/dateposte
 imgLink="https://live.staticflickr.com/65535/49802011482_859313cff8_b.jpg" alt="FiniteFragments" 
 
 flickrLink="https://www.flickr.com/photos/157195709@N02/49802011482/in/dateposted-public/" >}}
-
-{{< projectText >}}
-	some text
-{{< /projectText >}}
 
 {{< /projectCon >}}
 

@@ -232,7 +232,7 @@ nav li {
 
 #about p {
     padding-bottom: 2em;
-	line-height: 1.5rem;
+	line-height: 1.4rem;
 }
 
 @media all and (min-width: 460px) { 
@@ -272,6 +272,7 @@ nav li {
 
 .text p {
 	padding-top: 2em;
+	line-height: 1.4rem;
 }
 
 .text h1 {
