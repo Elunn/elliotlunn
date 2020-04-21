@@ -1,0 +1,19 @@
+{{ define "main" }}
+ 
+<main>
+	<div class="animated fadeIn thumbnails">
+		{{ range .Pages }}
+	   <div>
+			<a class="img" href="{{.URL}}">    
+			{{ with .Resources }}
+				{{ with .GetMatch "{cover.*,*.jpg,*.png,*.jpeg}" }}
+				<img src="{{ .Permalink }}"/>    
+				{{ end }}
+			{{ end }} 
+		   </a>
+	   </div>
+		{{ end }}
+	</div>
+</main>
+
+{{end}}

@@ -1,0 +1,438 @@
+
+
+/*------------------Global------------------*/
+
+.blue {
+	color: blue;
+}
+
+:root {
+    --main-padding: 0 .5em;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+	
+}
+
+body {
+    overflow-y: scroll;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: color .4s;
+}
+
+a:hover {
+    color: orange;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/*All content container*/
+
+main {
+    width: 100%;
+    margin: auto;
+    padding: 4.5em 0; /* height od the nav bar */
+}
+
+@media all and (min-width: 460px) { 
+    main {
+        width: 95%;
+    }
+    
+}
+
+/*header*/
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    height: 4em;
+    z-index: 10;
+}
+
+nav a {
+    font-size: 1rem;
+}
+
+nav ul {
+	width: 95%;
+	margin: auto;
+    display: flex;
+    align-items: center;
+    height: 4em;
+	
+}
+
+nav li {
+	padding: 0 .5em;
+    width: 100%;
+	font-family: 'Baloo Tammudu 2', cursive;
+}
+
+#aboutButton  {
+    text-align: left;
+    order: 1;
+    align-self: flex-end;
+    cursor: pointer
+}
+
+#aboutButton:hover {
+	color: orange;
+	transition: color .4s; 
+}
+
+#aboutButton.red:hover {
+	color: red;
+}
+
+#insta {
+    text-align: right;
+    order: 3;
+    align-self: flex-end;
+}
+
+#index {
+    text-align: center;
+    order: 2;
+}
+
+
+@media all and (min-width: 460px) {
+    #aboutButton  {
+        text-align: center;
+        order: 2;
+        align-self: center;
+    }
+
+    #insta {
+        text-align: right;
+        order: 3;
+        align-self: center;
+    }
+
+    #index {
+        text-align: left;
+        order: 1;
+		align-self: center;
+    }
+}
+
+/*------------------Page: HOMEPAGE------------------*/
+
+
+.thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    animation-duration: 2s;
+    animation-delay: .5s;
+}
+
+.thumbnails > div {
+    width: 100%;
+
+}
+
+.img {
+    display: inline-block;
+    padding: .5em;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+
+@media all and (min-width: 460px) { 
+    .thumbnails > div {
+        width: 50%;
+    }
+}
+
+@media all and (min-width: 770px) {  
+    
+}
+
+/*About section*/
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.red {
+    color: red;
+}
+
+#about {
+    z-index: 1;
+    position: relative;
+    height: 100%;
+    width: 95%;
+    margin: 4em auto;
+}
+
+#aboutCon {
+    width: 50%;
+    position: absolute;
+	top: 6em;
+	z-index: 100;
+    padding: var(--main-padding);
+}
+
+#about ul {
+    padding-bottom: 1em;
+}
+
+#about h2 {
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+
+#about h3 {
+	padding-bottom: 1em;
+}
+
+#about h1{
+	font-family: 'Baloo Tammudu 2', cursive;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+#about h2 {
+    font-weight: 500;
+}
+
+#about p {
+    padding-bottom: 2em;
+	line-height: 1.5rem;
+}
+
+/*------------------Page: projects------------------*/
+
+#projectIntro {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	padding: .5em;
+}
+
+#projectIntro > div {
+	width: 100%;
+}
+
+.text {
+	padding: 2em 0;
+}
+
+.text > div {
+	padding: .5em;
+	width: 80%;
+	margin: auto;
+}
+
+.text p {
+	padding-top: 2em;
+}
+
+.text h1 {
+	font-size: 1.4rem;
+	font-weight: 500;
+}
+
+@media all and (min-width: 460px) { 
+    #projectIntro > div {
+		width: 50%;
+	}
+	
+	#projectIntro .text {
+		width: 100%;
+	}
+}
+
+@media all and (min-width: 770px) {  
+	#projectIntro {
+		flex-direction: row;
+	}
+	
+	#projectIntro .text {
+		width: 50%;
+	}
+}
+
+/*Project scroll*/
+
+#projectScroll {
+    width: 100%;
+	bottom: 2em;
+    position: fixed;
+    z-index: 1;
+	left: 0;
+}
+
+#projectScroll ul {
+	width: 95%;
+	margin: auto;
+    padding: var(--main-padding);
+    display: flex;
+    justify-content: space-between;
+}
+
+#projectScroll a {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#projectScroll li {
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+#projectScroll a:hover {
+	background-color: orange;
+	color: white;
+	transition: background-color 2s;
+}
+
+/*Project further info*/
+
+#projectInfo {
+	width: 80%;
+	margin: auto;
+	animation-duration: 3s;
+    animation-delay: .5s;
+}
+
+.projectInfo-row {
+	display: flex;
+	padding-bottom: 5vh;
+}
+
+.projectInfo-col p {
+	padding: 2em;
+}
+
+.row {
+	flex-direction: column;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.column > div {
+	margin: auto;
+}
+
+.projectInfo-row > div {
+  position: relative;
+  display: inline-block; /*this is for clickable overlay*/
+}
+
+.size {
+	width: 100%;
+	transition:width .5s ease;
+}
+
+@media all and (min-width: 770px) {  
+	
+	.projectInfo-row {
+		padding-bottom: 10vh;
+	}
+	
+	.row {
+		flex-direction: row;
+	}
+	
+	.size {
+		width: 50%;
+	}
+	.size.one { 
+		width: 40%;
+	}
+
+	.size.two {
+		width: 30%;	
+	}
+
+	.size.three {
+		width: 60%;
+	}
+
+	.center {
+		justify-content: space-around;
+	} 
+
+	.right {
+		justify-content: flex-end;
+	} 
+
+	.left {
+		justify-content: flex-start;
+	}
+}
+
+.size.one, .two, .three { 
+	width: 100%;
+} 
+
+/*zoom*/
+
+.zoom {
+	width: 100%;
+	transition:width .5s ease;
+}
+
+.clickable {
+	position: absolute;
+	z-index: 1;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;	
+}
+
+.flickerLink {
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	font-size: 1.5rem;
+	cursor: pointer;
+	padding: 1em;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 0.2);
+}
+
+.flickerLink:hover {
+	color: rgba(225, 0, 132, 0.8);
+}
+
+.size > .clickable {
+	
+	cursor: url('/images/zoomCursor-01.png'), zoom-in;
+}
+
+.zoom > .clickable {
+	cursor: url('/images/zoomCursor-02.png'), zoom-out;
+}
