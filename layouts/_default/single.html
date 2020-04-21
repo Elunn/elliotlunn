@@ -1,12 +1,12 @@
 {{ define "main" }}
 <div id="projectScroll">
 	<ul>
-		<li>
+		<li class="animated fadeInLeft">
 			{{ with .NextInSection }}
-			  <a href="{{ .Permalink }}">previous project</a>
+			  <a href="{{ .Permalink }}">Previous project</a>
 			{{ end }}
 		</li>
-		<li>
+		<li class="animated fadeInRight">
 			{{ with .PrevInSection }}
 			  <a href="{{ .Permalink }}">Next project</a>
 			{{ end }}
