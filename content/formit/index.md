@@ -71,7 +71,7 @@ flickrLink="https://www.flickr.com/photos/157195709@N02/49802011482/in/dateposte
 
 {{< projectCon class="center">}}
 
-{{< projectImg class="two"
+{{< projectImg class="three"
 
 imgLink="https://live.staticflickr.com/65535/49801545306_8a5c3a5b10_b.jpg" alt="FiniteFragments" 
 
