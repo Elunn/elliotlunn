@@ -7,9 +7,9 @@
 	<link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500&family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	{{ template "_internal/google_analytics.html" . }}
-	<link rel="stylesheet" href="{{ "css/style.css" | relURL}}">
-    <link rel="stylesheet" href="{{ "css/reset.css" | relURL}}">
-    <link rel="stylesheet" href="{{ "css/animate.css" | relURL}}">
+	<link rel="stylesheet" href="{{ `css/style.css` | relURL}}">
+    <link rel="stylesheet" href="{{ `css/reset.css` | relURL}}">
+    <link rel="stylesheet" href="{{ `css/animate.css` | relURL}}">
 	<link rel="icon" type="image/png" href="/images/favicon.png" />
     <title>Elliot Lunn</title>
 </head>
@@ -44,4 +44,4 @@
 		{{end}}
 </body>
 </html>
-<script src="{{ "js/script.js" | relURL}}"></script>
+<script src="{{ `js/script.js` | relURL}}"></script>

@@ -6,11 +6,9 @@ description: Finite fragments, finitefragments.com Sand scarcity is a thing! Thi
 
 ---
 
-{{< projectCon class="center" >}}
 
 {{< vimeo videoLink="https://player.vimeo.com/video/388976640">}} 
 
-{{< /projectCon >}}
 
 
 {{< projectCon class="right">}}

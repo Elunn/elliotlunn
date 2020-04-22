@@ -9,16 +9,21 @@ button.addEventListener('click', function (event) {
     var main = document.querySelector('main');
     var next = document.querySelector('#aboutCon');
     var scroll = document.querySelector('#projectScroll');
+	
 
     if (about.classList == "hide") {
         about.className = "show";
         button.innerHTML = 'Close';
         main.className = "animated fadeOut";
-		button.className += "red";
+		button.classList.add("red");
         setTimeout(function(){
             main.className = "hide";
         }, 200);
-		scroll.className = "animated fadeOut";
+		
+		if (main.hasAttribute('id')){
+			scroll.className = "animated fadeOut";
+		}
+		
         
     } else {
         next.className = "animated fadeOutUp";
@@ -31,10 +36,14 @@ button.addEventListener('click', function (event) {
             next.className = "animated fadeInDown";
         }, 200);
 
-        button.className = "";
+        button.classList.add("red");
         button.innerHTML = 'About';
         main.className = "animated fadeIn";
-        scroll.className = "animated fadeIn";
+		
+		if (main.hasAttribute('id')){
+			scroll.className = "animated fadeIn";
+		}
+        
 
     }
 });

@@ -248,10 +248,6 @@ nav li {
 
 /*------------------Page: projects------------------*/
 
-.iframe{
-	width: 100%;
-}
-
 #projectIntro {
 	display: flex;
 	flex-direction: column;
@@ -302,6 +298,28 @@ nav li {
 	#projectIntro .text {
 		width: 50%;
 	}
+	
+	.video-responsive {
+		width: 60%;
+	}
+}
+
+/*Video content*/
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+	width: 100%;
+	margin: 0 auto 10vh 0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
 
 /*Project scroll*/
