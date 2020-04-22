@@ -201,7 +201,7 @@ nav li {
     position: absolute;
 	top: 6em;
 	z-index: 100;
-    padding: var(--main-padding);
+    padding: .5em;
 }
 
 #about ul {

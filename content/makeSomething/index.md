@@ -7,13 +7,15 @@ description: A making kit for kids designed to teach the subject of design for d
 
 ---
 
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/157195709@N02/49801532741/in/dateposted-public/" title="MakeSomething_3"><img src="https://live.staticflickr.com/65535/49801532741_1835d987f5_b.jpg" width="683" height="1024" alt="MakeSomething_3"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 {{< projectCon class="center">}}
 
 {{< projectImg class="two"
 
 imgLink="https://live.staticflickr.com/65535/49801532741_1835d987f5_b.jpg" 
 
-flickrLink="flickerLink" href="https://www.flickr.com/photos/157195709@N02/49801532741/in/dateposted-public/" >}}
+flickrLink="https://www.flickr.com/photos/157195709@N02/49801532741/in/dateposted-public/" >}}
 
 {{< /projectCon >}}
 
@@ -23,8 +25,7 @@ flickrLink="flickerLink" href="https://www.flickr.com/photos/157195709@N02/49801
 
 imgLink="https://live.staticflickr.com/65535/49801532661_10360aeef0_b.jpg" 
 
-flickrLink="flickerLink" 
-href="https://www.flickr.com/photos/157195709@N02/49801532661/in/dateposted-public/" >}}
+flickrLink="https://www.flickr.com/photos/157195709@N02/49801532661/in/dateposted-public/" >}}
 
 {{< /projectCon >}}
 
@@ -34,8 +35,7 @@ href="https://www.flickr.com/photos/157195709@N02/49801532661/in/dateposted-publ
 
 imgLink="https://live.staticflickr.com/65535/49801532606_82e05c7207_b.jpg" 
 
-flickrLink="flickerLink" 
-href="https://www.flickr.com/photos/157195709@N02/49801532606/in/dateposted-public/" >}}
+flickrLink="https://www.flickr.com/photos/157195709@N02/49801532606/in/dateposted-public/" >}}
 
 {{< /projectCon >}}
 
@@ -46,8 +46,7 @@ href="https://www.flickr.com/photos/157195709@N02/49801532606/in/dateposted-publ
 
 imgLink="https://live.staticflickr.com/65535/49801532681_9d24e38fd2_b.jpg" 
 
-flickrLink="flickerLink" 
-href="https://www.flickr.com/photos/157195709@N02/49801532681/in/dateposted-public/" >}}
+flickrLink="https://www.flickr.com/photos/157195709@N02/49801532681/in/dateposted-public/" >}}
 
 {{< /projectCon >}}
 
