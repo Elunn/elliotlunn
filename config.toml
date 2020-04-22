@@ -1,3 +1,5 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "Elliot lunn"
+
+googleAnalytics = "UA-164279584-1"

@@ -249,6 +249,10 @@ nav li {
 
 /*------------------Page: projects------------------*/
 
+iframe{
+	width: 100%;
+}
+
 #projectIntro {
 	display: flex;
 	flex-direction: column;
@@ -323,6 +327,8 @@ nav li {
 #projectScroll a {
     font-size: 1rem;
     font-weight: 500;
+	padding: .5em;
+	font-weight: 500;
 }
 
 #projectScroll li {
