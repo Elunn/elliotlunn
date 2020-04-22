@@ -305,18 +305,19 @@ nav li {
 
 #projectScroll {
     width: 100%;
-	bottom: 2em;
+	bottom: 0;
     position: fixed;
     z-index: 1;
 	left: 0;
 }
 
 #projectScroll ul {
-	width: 95%;
 	margin: auto;
     padding: var(--main-padding);
     display: flex;
     justify-content: space-between;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 1.5em;
 }
 
 #projectScroll a {
@@ -325,8 +326,9 @@ nav li {
 }
 
 #projectScroll li {
-    animation-duration: 2s;
-    animation-delay: 1s;
+    animation-duration: 1s;
+    animation-delay: .5s;
+
 }
 
 #projectScroll a:hover {
