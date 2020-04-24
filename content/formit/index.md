@@ -19,7 +19,7 @@ flickrLink="flickerLink" href="https://www.flickr.com/photos/157195709@N02/49801
 
 
 
-{{< projectCon class="">}}
+{{< projectCon class="right">}}
 
 {{< projectImg class="two"
 
