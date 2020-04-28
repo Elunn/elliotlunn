@@ -36,7 +36,7 @@ button.addEventListener('click', function (event) {
             next.className = "animated fadeInDown";
         }, 200);
 
-        button.classList.add("red");
+        button.classList.remove("red");
         button.innerHTML = 'About';
         main.className = "animated fadeIn";
 		
