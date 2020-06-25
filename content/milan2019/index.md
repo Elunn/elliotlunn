@@ -1,6 +1,6 @@
 ---
 title: "Milan2019"
-date: 2019
+date: 2020-06-24
 draft: false
 description: Design, build and project management of Design Products 2019 show in Base Milano 2019. 
 
