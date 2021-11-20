@@ -202,6 +202,13 @@ nav li {
 	top: 6em;
 	z-index: 100;
     padding: .5em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#aboutCon > div {
+	width: 100%;
 }
 
 #about ul {
@@ -213,6 +220,14 @@ nav li {
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.8rem;
+}
+
+#about ul h3 {
+    font-size: .8rem;
+}
+
+#about ul h3 {
+    font-size: .8rem;
 }
 
 #about h3 {
@@ -242,7 +257,12 @@ nav li {
 
 @media all and (min-width: 770px) {  
 	#aboutCon {
-    	width: 50%;
+		width: 100%;
+    	flex-direction: row;
+	}
+	
+	#aboutCon > div {
+		width: 45%;
 	}
 }
 

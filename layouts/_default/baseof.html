@@ -23,25 +23,10 @@
             </ul>
         </nav>
     </header>
-    <div id="about" class="hide">
-        <div id="aboutCon" class="animated slideInDown">
-            <h1>Me</h1>
-            <p>Passionate about learning and creating. I hold a 1st class BA (Hons) Sustainable Product Design from Falmouth University. This really channelled the way I approach design; taught me the importance of understanding who and what you are designing for, in addition to a critical approach to my practice. Currently, I am studying MA Design Products at the Royal College of Art.</p>
-            <ul>
-                <li><h2>MA Design Product</h2></li>
-                <li><h3>Royal College of Art | 2020</h3></li>
-                <li><h2>BA Sustainable Product Design </h2></li>
-                <li><h3>Falmouth University | 2018</h3></li>
-            </ul>
-            <ul>
-                <li><h2>design@elliotlunn.co.uk</h2></li>
-                <li><a href="https://www.instagram.com/elliotlunn/"><h2>@elliotlunn</h2></a></li>
-            </ul>
-        </div>
-    </div>
-		{{ block "main" . }}
+	{{ partial "about" . }}
+	{{ block "main" . }}
 
-		{{end}}
+	{{end}}
 </body>
 </html>
 <script src="{{ `js/script.js` | relURL}}"></script>
